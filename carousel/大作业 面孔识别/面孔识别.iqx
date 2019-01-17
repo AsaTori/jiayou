@@ -1,0 +1,745 @@
+﻿<item introex>
+/1="您好，欢迎参加我们的实验！~n首先进行一个按键练习，请在看见屏幕中央出现图片后进行按键，反应越快越好。~n按键要求：如果图案是植物，请按F键；如果图案是动物，按J键。~n现在，请按任意键开始练习。"
+</item>
+<item introfirst>
+/1="下面进行正式实验！~n请判断屏幕上将要呈现的面孔对应的族裔。如果你认为是亚裔，请按F键；非亚裔，请按J键。~n请尽快进行判断。~n如果你准备好了，请按任意键开始吧！"
+</item>
+<item introsecond>
+/1="接下来你会看到一些风景图片，请判断你是否想去那里旅游，如果想请按F键，不想请按J键。~n下面，请按任意键开始。"
+</item>
+<item introthird>
+/1="接下来你会看到一些面孔图片，请判断你之前是否见过它们，如果见过请按F键，没有见过请按J键。~n请尽快进行判断。~n下面，请按任意键开始。"
+</item>
+<item introlast>
+/1="谢谢参加实验！"
+</item>
+<item ex>
+/1="exercise\1.jpg"
+/2="exercise\2.jpg"
+/3="exercise\3.jpg"
+/4="exercise\4.jpg"
+/5="exercise\5.jpg"
+/6="exercise\6.jpg"
+/7="exercise\7.jpg"
+/8="exercise\8.jpg"
+/9="exercise\9.jpg"
+/10="exercise\10.jpg"
+</item>
+<item faces>
+/1="face\01.jpg"
+/2="face\02.jpg"
+/3="face\03.jpg"
+/4="face\04.jpg"
+/5="face\05.jpg"
+/6="face\06.jpg"
+/7="face\07.jpg"
+/8="face\08.jpg"
+/9="face\09.jpg"
+/10="face\10.jpg"
+/11="face\11.jpg"
+/12="face\12.jpg"
+/13="face\13.jpg"
+/14="face\14.jpg"
+</item>
+<item scenes>
+/1="scene\1.jpg"
+/2="scene\2.jpg"
+/3="scene\3.jpg"
+/4="scene\4.jpg"
+/5="scene\5.jpg"
+</item>
+
+<expressions>
+/interval=noreplace(300,300,300,250,300,500,200,250)
+</expressions>
+<defaults>
+/pretrialpause=250
+/posttrialpause=expressions.interval
+/screencolor = (0,0,0)
+/txbgcolor = (0,0,0)
+/txcolor =(255,255,255)
+/fontstyle=("楷体",4%)
+</defaults>
+
+<values>
+/fixationtime=0
+</values>
+<expressions>
+/generaterandom=ceil(rand(400,600))
+</expressions>
+
+<text introextxt>
+/items=introex
+/hjustify=center
+/vjustify=center
+/size=(100%,75%)
+</text>
+<picture ex1>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=ex
+/position=(50%,50%)
+/select=1
+/size=(50%,50%)
+</picture>
+<picture ex2>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=ex
+/position=(50%,50%)
+/select=2
+/size=(50%,50%)
+</picture>
+<picture ex3>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=ex
+/position=(50%,50%)
+/select=3
+/size=(50%,50%)
+</picture>
+<picture ex4>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=ex
+/position=(50%,50%)
+/select=4
+/size=(50%,50%)
+</picture>
+<picture ex5>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=ex
+/position=(50%,50%)
+/select=5
+/size=(50%,50%)
+</picture>
+<picture ex6>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=ex
+/position=(50%,50%)
+/select=6
+/size=(50%,50%)
+</picture>
+<picture ex7>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=ex
+/position=(50%,50%)
+/select=7
+/size=(50%,50%)
+</picture>
+<picture ex8>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=ex
+/position=(50%,50%)
+/select=8
+/size=(50%,50%)
+</picture>
+<picture ex9>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=ex
+/position=(50%,50%)
+/select=9
+/size=(50%,50%)
+</picture>
+<picture ex10>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=ex
+/position=(50%,50%)
+/select=10
+/size=(50%,50%)
+</picture>
+<text introfirsttxt>
+/items=introfirst
+/hjustify=center
+/vjustify=center
+/size=(100%,75%)
+</text>
+<text introsecondtxt>
+/items=introsecond
+/hjustify=center
+/vjustify=center
+/size=(100%,75%)
+</text>
+<text introthirdtxt>
+/items=introthird
+/hjustify=center
+/vjustify=center
+/size=(100%,75%)
+</text>
+<text introlasttxt>
+/items=introlast
+/hjustify=center
+/vjustify=center
+/size=(100%,75%)
+</text>
+<picture face1>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=1
+/size=(50%,50%)
+</picture>
+<picture face2>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=2
+/size=(50%,50%)
+</picture>
+<picture face3>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=3
+/size=(50%,50%)
+</picture>
+<picture face4>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=4
+/size=(50%,50%)
+</picture>
+<picture face5>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=5
+/size=(50%,50%)
+</picture>
+<picture face6>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=6
+/size=(50%,50%)
+</picture>
+<picture face7>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=7
+/size=(50%,50%)
+</picture>
+<picture face8>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=8
+/size=(50%,50%)
+</picture>
+<picture face9>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=9
+/size=(50%,50%)
+</picture>
+<picture face10>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=10
+/size=(50%,50%)
+</picture>
+<picture face11>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=11
+/size=(50%,50%)
+</picture>
+<picture face12>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=12
+/size=(50%,50%)
+</picture>
+<picture face13>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=13
+/size=(50%,50%)
+</picture>
+<picture face14>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=faces
+/position=(50%,50%)
+/select=14
+/size=(50%,50%)
+</picture>
+<picture scene1>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=scenes
+/position=(50%,50%)
+/select=1
+/size=(50%,50%)
+</picture>
+<picture scene2>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=scenes
+/position=(50%,50%)
+/select=2
+/size=(50%,50%)
+</picture>
+<picture scene3>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=scenes
+/position=(50%,50%)
+/select=3
+/size=(50%,50%)
+</picture>
+<picture scene4>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=scenes
+/position=(50%,50%)
+/select=4
+/size=(50%,50%)
+</picture>
+<picture scene5>
+/hposition=50%
+/vposition=50%
+/halign=center
+/valign=center
+/items=scenes
+/position=(50%,50%)
+/select=5
+/size=(50%,50%)
+</picture>
+<text fixationtxt>
+/items=("+")
+</text>
+<text correcttxt>
+/items=("对哒！")
+/fontstyle=("楷体",5.5%)
+/txcolor=(yellow)
+</text>
+<text errortxt>
+/items=("错啦！")
+/fontstyle=("楷体",5.5%)
+/txcolor=(red)
+</text>
+
+<trial introextrl>
+/stimulusframes=[1=introextxt]
+/recorddata=false
+/validresponse=(anyresponse)
+</trial>
+<trial ex1trl>
+/stimulusframes=[1=ex1]
+/validresponse=("F","J")
+/correctresponse=("F")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(2500)
+</trial>
+<trial ex2trl>
+/stimulusframes=[1=ex2]
+/validresponse=("F","J")
+/correctresponse=("F")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(2500)
+</trial>
+<trial ex3trl>
+/stimulusframes=[1=ex3]
+/validresponse=("F","J")
+/correctresponse=("F")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(2500)
+</trial>
+<trial ex4trl>
+/stimulusframes=[1=ex4]
+/validresponse=("F","J")
+/correctresponse=("F")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(2500)
+</trial>
+<trial ex5trl>
+/stimulusframes=[1=ex5]
+/validresponse=("F","J")
+/correctresponse=("F")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(2500)
+</trial>
+<trial ex6trl>
+/stimulusframes=[1=ex6]
+/validresponse=("F","J")
+/correctresponse=("J")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(2500)
+</trial>
+<trial ex7trl>
+/stimulusframes=[1=ex7]
+/validresponse=("F","J")
+/correctresponse=("J")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(2500)
+</trial>
+<trial ex8trl>
+/stimulusframes=[1=ex8]
+/validresponse=("F","J")
+/correctresponse=("J")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(2500)
+</trial>
+<trial ex9trl>
+/stimulusframes=[1=ex9]
+/validresponse=("F","J")
+/correctresponse=("J")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(2500)
+</trial>
+<trial ex10trl>
+/stimulusframes=[1=ex10]
+/validresponse=("F","J")
+/correctresponse=("J")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(2500)
+</trial>
+<trial introfirsttrl>
+/stimulusframes=[1=introfirsttxt]
+/recorddata=false
+/validresponse=(anyresponse)
+</trial>
+<trial introsecondtrl>
+/stimulusframes=[1=introsecondtxt]
+/recorddata=false
+/validresponse=(anyresponse)
+</trial>
+<trial introthirdtrl>
+/stimulusframes=[1=introthirdtxt]
+/recorddata=false
+/validresponse=(anyresponse)
+</trial>
+<trial introlasttrl>
+/stimulusframes=[1=introlasttxt]
+/recorddata=false
+/validresponse=(anyresponse)
+</trial>
+<trial face1pretrl>
+/stimulusframes =[1=fixationtxt;40=face1]
+/recorddata=false
+/validresponse=("F","J")
+/response=timeout(2000)
+</trial>
+<trial face2pretrl>
+/stimulusframes =[1=fixationtxt;40=face2]
+/recorddata=false
+/validresponse=("F","J")
+/response=timeout(2000)
+</trial>
+<trial face3pretrl>
+/stimulusframes =[1=fixationtxt;40=face3]
+/recorddata=false
+/validresponse=("F","J")
+/response=timeout(2000)
+</trial>
+<trial face4pretrl>
+/stimulusframes =[1=fixationtxt;40=face4]
+/recorddata=false
+/validresponse=("F","J")
+/response=timeout(2000)
+</trial>
+<trial face5pretrl>
+/stimulusframes =[1=fixationtxt;40=face5]
+/recorddata=false
+/validresponse=("F","J")
+/response=timeout(2000)
+</trial>
+<trial face6pretrl>
+/stimulusframes =[1=fixationtxt;40=face6]
+/recorddata=false
+/validresponse=("F","J")
+/response=timeout(2000)
+</trial>
+<trial face7pretrl>
+/stimulusframes =[1=fixationtxt;40=face7]
+/recorddata=false
+/validresponse=("F","J")
+/response=timeout(2000)
+</trial>
+<trial face1trl>
+/stimulusframes =[1=fixationtxt;50=face1]
+/validresponse=("F","J",noresponse)
+/correctresponse=("F")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+</trial>
+<trial face2trl>
+/stimulusframes =[1=fixationtxt;50=face2]
+/validresponse=("F","J",noresponse)
+/correctresponse=("F")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+</trial>
+<trial face3trl>
+/stimulusframes =[1=fixationtxt;50=face3]
+/validresponse=("F","J",noresponse)
+/correctresponse=("F")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+</trial>
+<trial face4trl>
+/stimulusframes =[1=fixationtxt;50=face4]
+/validresponse=("F","J",noresponse)
+/correctresponse=("F")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+</trial>
+<trial face5trl>
+/stimulusframes =[1=fixationtxt;50=face5]
+/validresponse=("F","J",noresponse)
+/correctresponse=("F")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+</trial>
+<trial face6trl>
+/stimulusframes =[1=fixationtxt;50=face6]
+/validresponse=("F","J",noresponse)
+/correctresponse=("F")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+</trial>
+<trial face7trl>
+/stimulusframes =[1=fixationtxt;50=face7]
+/validresponse=("F","J",noresponse)
+/correctresponse=("F")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+</trial>
+<trial face8trl>
+/stimulusframes =[1=fixationtxt;50=face8]
+/validresponse=("F","J",noresponse)
+/correctresponse=("J")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+</trial>
+<trial face9trl>
+/stimulusframes =[1=fixationtxt;50=face9]
+/validresponse=("F","J",noresponse)
+/correctresponse=("J")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+</trial>
+<trial face10trl>
+/stimulusframes =[1=fixationtxt;50=face10]
+/validresponse=("F","J",noresponse)
+/correctresponse=("J")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+</trial>
+<trial face11trl>
+/stimulusframes =[1=fixationtxt;50=face11]
+/validresponse=("F","J",noresponse)
+/correctresponse=("J")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+</trial>
+<trial face12trl>
+/stimulusframes =[1=fixationtxt;50=face12]
+/validresponse=("F","J",noresponse)
+/correctresponse=("J")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+</trial>
+<trial face13trl>
+/stimulusframes =[1=fixationtxt;50=face13]
+/validresponse=("F","J",noresponse)
+/correctresponse=("J")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+</trial>
+<trial face14trl>
+/stimulusframes =[1=fixationtxt;50=face14]
+/validresponse=("F","J",noresponse)
+/correctresponse=("J")
+/correctmessage=(correcttxt,500)
+/errormessage=(errortxt,500)
+/response=timeout(1000)
+
+</trial>
+<trial scene1trl>
+/pretrialpause=500
+/recorddata=false
+/validresponse=("F","J")
+/ontrialbegin=[values.fixationtime=expressions.generaterandom]
+/ontrialbegin=[trial.scene1trl.insertstimulustime(text.fixationtxt, 0)]
+/ontrialbegin=[trial.scene1trl.insertstimulustime(picture.scene1,values.fixationtime)]
+/ontrialend=[trial.scene1trl.clearstimulusframes()]
+</trial>
+<trial scene2trl>
+/pretrialpause=500
+/recorddata=false
+/validresponse=("F","J")
+/ontrialbegin=[values.fixationtime=expressions.generaterandom]
+/ontrialbegin=[trial.scene2trl.insertstimulustime(text.fixationtxt, 0)]
+/ontrialbegin=[trial.scene2trl.insertstimulustime(picture.scene2,values.fixationtime)]
+/ontrialend=[trial.scene2trl.clearstimulusframes()]
+</trial>
+<trial scene3trl>
+/pretrialpause=500
+/recorddata=false
+/validresponse=("F","J")
+/ontrialbegin=[values.fixationtime=expressions.generaterandom]
+/ontrialbegin=[trial.scene3trl.insertstimulustime(text.fixationtxt, 0)]
+/ontrialbegin=[trial.scene3trl.insertstimulustime(picture.scene3,values.fixationtime)]
+/ontrialend=[trial.scene3trl.clearstimulusframes()]
+</trial>
+<trial scene4trl>
+/pretrialpause=500
+/recorddata=false
+/validresponse=("F","J")
+/ontrialbegin=[values.fixationtime=expressions.generaterandom]
+/ontrialbegin=[trial.scene4trl.insertstimulustime(text.fixationtxt, 0)]
+/ontrialbegin=[trial.scene4trl.insertstimulustime(picture.scene4,values.fixationtime)]
+/ontrialend=[trial.scene4trl.clearstimulusframes()]
+</trial>
+<trial scene5trl>
+/pretrialpause=500
+/recorddata=false
+/validresponse=("F","J")
+/ontrialbegin=[values.fixationtime=expressions.generaterandom]
+/ontrialbegin=[trial.scene5trl.insertstimulustime(text.fixationtxt, 0)]
+/ontrialbegin=[trial.scene5trl.insertstimulustime(picture.scene5,values.fixationtime)]
+/ontrialend=[trial.scene5trl.clearstimulusframes()]
+</trial>
+
+<block introexblk>
+/trials=[1=introextrl]
+</block>
+<block exerciseblk>
+/trials=[1-10=random(ex1trl,ex2trl,ex3trl,ex4trl,ex5trl,ex6trl,ex7trl,ex8trl,ex9trl,ex10trl)]
+</block>
+<block introfirstblk>
+/trials=[1=introfirsttrl]
+</block>
+<block facejudgeblk>
+/trials=[1-7=random(face1pretrl,face2pretrl,face3pretrl,face4pretrl,face5pretrl,face6pretrl,face7pretrl)]
+</block>
+<block introsecondblk>
+/trials=[1=introsecondtrl]
+</block>
+<block sceneblk>
+/trials=[1-5=random(scene1trl,scene2trl,scene3trl,scene4trl,scene5trl)]
+</block>
+<block introthirdblk>
+/trials=[1=introthirdtrl]
+</block>
+<block facerecblk>
+/trials=[1-14=noreplace(face1trl,face2trl,face3trl,face4trl,face5trl,face6trl,face7trl,face8trl,face9trl,face10trl,face11trl,face12trl,face13trl,face14trl)]
+</block>
+<block introlastblk>
+/trials=[1=introlasttrl]
+</block>
+
+<expt facerecexpt>
+/blocks=[1=introexblk;2=exerciseblk;3=introfirstblk;4=facejudgeblk;5=introsecondblk;6=sceneblk;7=introthirdblk;8=facerecblk;9=introlastblk]
+</expt>
+<monkey>
+/percentcorrect=50
+</monkey>
+
